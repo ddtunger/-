@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<ul class="list">
+    <li>Первый исходник</li>
+    <li>Второй исходник</li>   
+</ul>
+<button type="button" id="append">Добавить в конец</button>
+<button type="button" id="prepend">Добавить в начало</button>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    $("#append").on("click", function() {
+        $(".list").append("<li>Элемент в конце</li>");
+    });
+    $("#prepend").on("click", function() {
+        $(".list").prepend("<li>Элемент в начале</li>");
+    });
+</script>
+</body>
+</html>

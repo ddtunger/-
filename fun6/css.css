@@ -1,0 +1,10 @@
+body {
+    height: 100%;
+}
+.container {
+    width: 1600px;
+    height: 700px;
+    margin: auto;
+    background:radial-gradient(white,black);
+    
+}
